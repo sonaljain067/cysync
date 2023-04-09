@@ -188,27 +188,5 @@ const handlePopup: React.FC<PopupProps> = ({ onClose }) => {
   );
 };
 
-// const handlePopup = () => {
-//   const [isPopupOpen, setIsPopupOpen] = useState(false);
-
-//   const handleReceiveClick = () => {
-//     setIsPopupOpen(true);
-//   };
-
-//   const handlePopupClose = () => {
-//     setIsPopupOpen(false);
-//   };
-
-//   return (
-//     <div>
-//       <button className="bg-blue-500 hover:bg-blue-600 rounded text-white px-4 py-2 text-sm" onClick={handleReceiveClick}>
-//         Receive
-//       </button>
-
-//       {/* {isPopupOpen && <Popup  />} */}
-//       {/* onClose={handlePopupClose} */}
-//     </div>
-//   );
-// };
 
 export default handlePopup;
