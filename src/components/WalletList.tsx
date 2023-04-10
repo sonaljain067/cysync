@@ -11,7 +11,6 @@ export interface Wallet {
 import HandlePopup from "@/components/handlePopup"
 import {ArrowDownLeftIcon} from '@heroicons/react/24/outline'
 import {ArrowUpRightIcon} from '@heroicons/react/24/outline'
-import {ArrowsUpDownIcon} from '@heroicons/react/24/outline';
 import Dropdown from './Dropdown';
 
 const WalletList: React.FC = (  ) =>{
@@ -160,7 +159,7 @@ const WalletList: React.FC = (  ) =>{
                   <div className="mt-2">
                     <div className="flex items-center text-darkorange">
                           <div className="flex-shrink-0">
-                          <ArrowDownLeftIcon className='h-6 w-6'/>
+                          <ArrowUpRightIcon className='h-6 w-6'/>
                           </div>
                           <div className="ml-4">
                             <div className="text-lg">SEND</div>
