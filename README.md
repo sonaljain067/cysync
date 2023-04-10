@@ -1,6 +1,6 @@
-# cy Sync
+# cySync
 
-CySync is a frontend application built with TypeScript, React, and Tailwind.
+CySync is a frontend application to for listing wallet details with receiving / sending coins built with TypeScript and TailwindCSS.
 
 ### Installation
 To install the application, you can clone the repository from GitHub: <br/>
